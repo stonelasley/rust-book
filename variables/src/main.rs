@@ -14,4 +14,6 @@ fn main() {
     }
     println!("The value of y outside scope is {y}");
 
+
+
 }
