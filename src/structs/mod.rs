@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let mut user1 = build_user(String::from("someone@example.co"), String::from("myuser"));
     let _user2 = User {
         email: String::from("anotheremail@example.com"),

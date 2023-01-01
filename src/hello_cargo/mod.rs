@@ -1,5 +1,5 @@
-fn main() {
-    println!("{}", hello_world());
+pub fn run() {
+    println!("{}", hello_cargo());
 }
 
 fn hello_cargo() -> &'static str {
@@ -16,3 +16,4 @@ mod tests {
         assert_eq!(hello_cargo(), "Hello, Cargo!");
     }
 }
+

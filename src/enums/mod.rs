@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let _home = IpAddrKind::Ipv4(127, 0, 0, 1);
     let _loopback = IpAddrKind::Ipv6(String::from("::1"));
 

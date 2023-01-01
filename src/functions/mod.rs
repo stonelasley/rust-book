@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let y = {
         let x = 3;
         x + 1
@@ -8,5 +8,6 @@ fn main() {
     println!("The value of x is {x}")
 }
 
-fn five() -> i32 { 5 }
-
+fn five() -> i32 {
+    5
+}

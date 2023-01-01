@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     // explicit type
     let guess: u8 = "32".parse().expect("Not a Number");
     // Tuples
