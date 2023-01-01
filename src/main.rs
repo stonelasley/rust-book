@@ -5,6 +5,7 @@ mod chapter_04;
 mod chapter_05;
 mod chapter_06;
 mod chapter_07;
+mod chapter_08;
 
 use chapter_07::front_of_house::hosting;
 
@@ -29,4 +30,6 @@ fn main() {
     hosting::add_to_waitlist();
     hosting::seat_at_table();
     chapter_07::eat_at_restaurant();
+    println!("---Chapter Eight---");
+    chapter_08::run();
 }
