@@ -6,6 +6,9 @@ mod chapter_05;
 mod chapter_06;
 mod chapter_07;
 mod chapter_08;
+mod chapter_09;
+
+use std::collections::vec_deque;
 
 use chapter_07::front_of_house::hosting;
 
@@ -32,4 +35,8 @@ fn main() {
     chapter_07::eat_at_restaurant();
     println!("---Chapter Eight---");
     chapter_08::run();
+    println!("---Chapter Nine ---");
+    println!("Skipping panic!()");
+    // chapter_09::panic();
+    chapter_09::try_open_file();
 }
